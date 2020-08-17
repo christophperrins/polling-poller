@@ -7,6 +7,7 @@ The polling project is a project used to poll other servers to find the performa
 - [Frontend](https://github.com/christophperrins/polling-frontend)
 
 ## Poller
+The poller has a name. Multiple poller can have the same name but will be treated as a single entity. Useful for having a poller in different locations (developments to come).
 
 ### Installation
 The project is built using java and maven
@@ -25,6 +26,8 @@ cd polling-poller
 ```
 
 Configure the file "application.properties" found in src/resources/
+
+**Run the schema.sql inside the mysql server.**
 
 Then package and run the project
 
